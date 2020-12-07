@@ -3,7 +3,7 @@ pipeline {
          stages {
                  stage('One') {
                     steps {
-                      echo 'Hi, I am Prithvi Raj Karki from Chandigarh University'
+                      echo 'Hi, I am Shiv Kumar Sharma from Chandigarh University'
                     }
                  }
                  stage('Two') {
@@ -20,7 +20,7 @@ pipeline {
                     steps {
                        echo "Hello"
                        echo "We are in stage three's steps: We are in the git repository PipelinngPractice"
-                       git 'https://github.com/prithvi8117/PipelinngPractice'
+                       git 'https://github.com/Hacker-Shiv/PipelinngPractice'
                     }
                  }
                  stage('Four : Compile and execute'){
